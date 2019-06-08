@@ -3,7 +3,10 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-
+function numberToString(n) {
+    var string = num.toString();
+    return string;
+}
 
 /**
  * Adds one to a given number.
