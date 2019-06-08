@@ -3,6 +3,7 @@
  * @param {number} n
  * @return {string} the number as a string
  */
+
 function numberToString(n) {
     var string = n.toString();
     return string;
@@ -13,6 +14,7 @@ function numberToString(n) {
  * @param {number} n
  * @return {number}
  */
+
 function increase(n) {
     var n = n + 1;
     return n;
@@ -23,6 +25,7 @@ function increase(n) {
  * @param {number} n
  * @return {number}
  */
+
 function decrease(n) {
     var n = n - 1;
     return n;
@@ -47,6 +50,10 @@ function add(x, y) {
  * @return {number} the difference
  */
 
+function subtract(x, y) {
+    var z =  x - y;
+    return z;
+}
 
 /**
  * Multiplies two numbers.
