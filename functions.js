@@ -245,6 +245,9 @@ function letterGrade(score, total) {
  * @return {object} restaurant
  */
 
+function incrementReviews() {
+    
+}
 
 /**
  * Joins two strings with a space.
