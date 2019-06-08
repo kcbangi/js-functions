@@ -35,7 +35,7 @@ function decrease(n) {
  * Adds two numbers.
  * @param {number} x
  * @param {number} y
- * @return {number} the sum
+ * @return {number} the add
  */
 
 function add(x, y) {
@@ -47,7 +47,7 @@ function add(x, y) {
  * Subtracts the second number from the first.
  * @param {number} x
  * @param {number} y
- * @return {number} the difference
+ * @return {number} the sub
  */
 
 function subtract(x, y) {
@@ -59,7 +59,7 @@ function subtract(x, y) {
  * Multiplies two numbers.
  * @param {number} x
  * @param {number} y
- * @return {number} the product
+ * @return {number} the mul
  */
 
 function multiply(x, y) {
@@ -71,7 +71,7 @@ function multiply(x, y) {
  * Divides the first number by the second.
  * @param {number} x
  * @param {number} y
- * @return {number} the quotient
+ * @return {number} the div
  */
 
 function divide(x, y) {
@@ -98,6 +98,28 @@ function divide(x, y) {
  * @return {number} the result
  */
 
+function calculate(operation, x, y) {
+    if(operation === "add"){
+		var add = x + y;
+		console.log(x + " + " + y + " = " + add);
+		return add;
+	}
+	if(operation === "subtract"){
+		var sub = x - y;
+		console.log(x + " - " + y + " = " + sub);
+		return sub;
+	}
+	if(operation === "multiply"){
+		var mul = x * y;
+		console.log(x + " * " + y + " = " + mul);
+		return mul;
+	}
+	if(operation === "divide"){
+		var div = x / y;
+		console.log(x + " / " + y + " = " + div);
+		return div;
+	}
+}
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -105,6 +127,10 @@ function divide(x, y) {
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
+
+ function isGreaterThan() {
+     
+ }
 
 
 /**
