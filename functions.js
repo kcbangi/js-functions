@@ -28,7 +28,6 @@ function decrease(n) {
     return n;
 }
 
-
 /**
  * Adds two numbers.
  * @param {number} x
@@ -36,6 +35,10 @@ function decrease(n) {
  * @return {number} the sum
  */
 
+function add(x, y) {
+    var z = x + y;
+    return z;
+}
 
 /**
  * Subtracts the second number from the first.
