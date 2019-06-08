@@ -167,6 +167,7 @@ function areEqual(a, b) {
  * @param {number} y
  * @return {number} the smallest number
  */
+
 function minimum(x, y) {
     return Math.min(x, y);
 }
@@ -187,6 +188,13 @@ function maximum(x, y) {
  * @return {boolean} the number is even
  */
 
+function isEven(n) {
+    if (n % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 /**
  * Returns true if `n` is odd.
@@ -194,6 +202,13 @@ function maximum(x, y) {
  * @return {boolean} the number is odd
  */
 
+function isOdd(n) {
+    if (n % 1 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 /**
  * Returns a letter grade.
