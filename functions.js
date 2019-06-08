@@ -283,3 +283,10 @@ function combine(str1, str2) {
  * @return {object} circle
  */
 
+function createCircle(radius) {
+    var circle = {
+        circum: 2 * Math.PI * radius,
+        area: radius * Math.PI
+    };
+    return circle;
+}
