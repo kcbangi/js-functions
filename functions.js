@@ -4,7 +4,7 @@
  * @return {string} the number as a string
  */
 function numberToString(n) {
-    var string = num.toString();
+    var string = n.toString();
     return string;
 }
 
