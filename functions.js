@@ -23,6 +23,10 @@ function increase(n) {
  * @param {number} n
  * @return {number}
  */
+function decrease(n) {
+    var n = n - 1;
+    return n;
+}
 
 
 /**
