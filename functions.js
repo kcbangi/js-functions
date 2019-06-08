@@ -101,7 +101,8 @@ function divide(x, y) {
 
 function calculate(operation, x, y) {
     if(operation === "add"){
-		var add = x + y;
+        var add = x + y;
+        // add(x, y);
 		console.log(x + " + " + y + " = " + add);
 		return add;
 	}
@@ -245,10 +246,24 @@ function letterGrade(score, total) {
  * @return {object} restaurant
  */
 
-function incrementReviews() {
-    
-}
+// function incrementReviews(restaurant) {
+//     var res = restaurant.reviews;
+//     if(!res) {
+//         restaurant.reviews = 1
+//     } else {
+//         restaurant.review = increase(restaurant.reviews);
+//     }
+//     return restaurant;
+// }
 
+function incrementReviews(restaurant) {
+    if (restaurant.hasOwnProperty('reviews')) {
+        restaurant.reviews = restaurant.reviews + 1;
+    } else {
+        restaurant.reviews = 1;
+    }
+    return restaurant;
+  }
 /**
  * Joins two strings with a space.
  * @param {string} word1
