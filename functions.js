@@ -13,7 +13,10 @@ function numberToString(n) {
  * @param {number} n
  * @return {number}
  */
-
+function increase(n) {
+    var n = n + 1;
+    return n;
+}
 
 /**
  * Subtracts one from a given number.
