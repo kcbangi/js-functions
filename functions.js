@@ -74,6 +74,10 @@ function multiply(x, y) {
  * @return {number} the quotient
  */
 
+function divide(x, y) {
+    var z = x / y;
+    return z;
+}
 
 /**
  * Multiplies a number by itself.
