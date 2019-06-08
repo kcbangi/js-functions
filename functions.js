@@ -141,6 +141,10 @@ function calculate(operation, x, y) {
  * @return {boolean} `a` is smaller than `b`
  */
 
+ function isLessThan(a, b) {
+     var boo = a < b;
+     return boo;
+ }
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -149,6 +153,13 @@ function calculate(operation, x, y) {
  * @return {boolean} the numbers are equal
  */
 
+function areEqual(a, b) {
+    if(a === b) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 /**
  * Returns the smallest value of two numbers.
