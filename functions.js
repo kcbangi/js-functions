@@ -39,8 +39,8 @@ function decrease(n) {
  */
 
 function add(x, y) {
-    var z = x + y;
-    return z;
+    var num = x + y;
+    return num;
 }
 
 /**
@@ -51,8 +51,8 @@ function add(x, y) {
  */
 
 function subtract(x, y) {
-    var z =  x - y;
-    return z;
+    var num =  x - y;
+    return num;
 }
 
 /**
@@ -63,8 +63,8 @@ function subtract(x, y) {
  */
 
 function multiply(x, y) {
-    var z = x * y;
-    return z;
+    var num = x * y;
+    return num;
 }
 
 /**
@@ -75,8 +75,8 @@ function multiply(x, y) {
  */
 
 function divide(x, y) {
-    var z = x / y;
-    return z;
+    var num = x / y;
+    return num;
 }
 
 /**
@@ -86,7 +86,8 @@ function divide(x, y) {
  */
 
  function square(x) {
-    return x * x;
+    var num = x * x;
+    return num
  }
 
 /**
@@ -128,10 +129,10 @@ function calculate(operation, x, y) {
  * @return {boolean} `a` is larger than `b`
  */
 
- function isGreaterThan() {
-     
+ function isGreaterThan(a, b) {
+    var boo = a > b;
+    return boo;
  }
-
 
 /**
  * Returns true if `a` is less than `b`.
