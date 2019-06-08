@@ -62,6 +62,10 @@ function subtract(x, y) {
  * @return {number} the product
  */
 
+function multiply(x, y) {
+    var z = x * y;
+    return z;
+}
 
 /**
  * Divides the first number by the second.
