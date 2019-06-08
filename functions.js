@@ -100,23 +100,19 @@ function divide(x, y) {
  */
 
 function calculate(operation, x, y) {
-    if(operation === "add"){
+    if(operation === "add") {
         var add = x + y;
-        // add(x, y);
 		console.log(x + " + " + y + " = " + add);
 		return add;
-	}
-	if(operation === "subtract"){
+	}else if(operation === "subtract") {
 		var sub = x - y;
 		console.log(x + " - " + y + " = " + sub);
 		return sub;
-	}
-	if(operation === "multiply"){
+	}else if(operation === "multiply") {
 		var mul = x * y;
 		console.log(x + " * " + y + " = " + mul);
 		return mul;
-	}
-	if(operation === "divide"){
+	}else if(operation === "divide") {
 		var div = x / y;
 		console.log(x + " / " + y + " = " + div);
 		return div;
@@ -254,6 +250,7 @@ function incrementReviews(restaurant) {
     }
     return restaurant;
   }
+  
 /**
  * Joins two strings with a space.
  * @param {string} word1
