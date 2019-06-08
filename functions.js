@@ -246,16 +246,6 @@ function letterGrade(score, total) {
  * @return {object} restaurant
  */
 
-// function incrementReviews(restaurant) {
-//     var res = restaurant.reviews;
-//     if(!res) {
-//         restaurant.reviews = 1
-//     } else {
-//         restaurant.review = increase(restaurant.reviews);
-//     }
-//     return restaurant;
-// }
-
 function incrementReviews(restaurant) {
     if (restaurant.hasOwnProperty('reviews')) {
         restaurant.reviews = restaurant.reviews + 1;
@@ -285,8 +275,8 @@ function combine(str1, str2) {
 
 function createCircle(radius) {
     var circle = {
-        circum: 2 * Math.PI * radius,
-        area: radius * Math.PI
-    };
+        circumference: 2 * Math.PI * radius,
+        area: Math.PI * radius * radius
+    }
     return circle;
 }
